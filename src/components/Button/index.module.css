@@ -1,0 +1,11 @@
+.btn {
+  padding: 22.745px 67.8px 22.245px 68px;
+  background: #ffd531;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 15.805px;
+  font-weight: 600;
+  line-height: 19.01px;
+}
