@@ -13,5 +13,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  /* max-width: 1440px; */
+  position: relative;
+  margin: 0 auto;
 }
