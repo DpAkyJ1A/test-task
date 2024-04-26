@@ -1,0 +1,53 @@
+.chartElement {
+  width: 245px;
+}
+
+.chartElement__columnName {
+  margin-bottom: 3.51px;
+  font-size: 10.484px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.chartElement__columnHeader {
+  height: 56px;
+  margin-bottom: 15.01px;
+  font-size: 19.359px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.chartElement__barChart {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background-color: #f2f2f2;
+  padding-top: 25.98px;
+}
+
+.chartElement__barChartPercentage {
+  margin-left: 30px;
+  font-size: 19.852px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.chartElement__barChartFilled {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.chartElement ul {
+  margin-top: 34px;
+  font-size: 16.172px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 20px;
+}
+
+.chartElement ul li {
+  margin-bottom: 16px;
+}

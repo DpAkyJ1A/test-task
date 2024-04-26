@@ -1,0 +1,10 @@
+.statsSection__content {
+  padding: 107px 176px 109.47px;
+}
+
+.statsSection__row {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 40px;
+}
