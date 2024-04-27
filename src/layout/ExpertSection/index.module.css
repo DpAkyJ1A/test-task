@@ -1,0 +1,37 @@
+.expertSection {
+  background-color: #1f1f1f;
+}
+
+.expertSection__content {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+
+.expertSection__contentColumn {
+  width: 720px;
+  padding: 43px 218px 58px 55px;
+  color: #fff;
+}
+
+.expertSection__contentColumn h2 {
+  font-weight: 500;
+  font-size: 49.46px;
+  line-height: 66px;
+  width: 374px;
+  margin-bottom: 45px;
+}
+
+.expertSection__contentColumn img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 22px;
+}
+
+.expertSection__contentColumn p {
+  font-weight: 400;
+  font-size: 16.03px;
+  line-height: 28px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}

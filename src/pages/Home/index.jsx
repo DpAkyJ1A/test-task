@@ -6,6 +6,7 @@ import {
   AccordionImagesSection,
   VideoSection,
   AchievementsSection,
+  ExpertSection,
 } from '@/layout';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AccordionImagesSection />
       <VideoSection />
       <AchievementsSection />
+      <ExpertSection />
     </div>
   );
 }
