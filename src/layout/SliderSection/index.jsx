@@ -3,7 +3,7 @@ import slide1 from '../../assets/img/slide1.png';
 import slide2 from '../../assets/img/slide2.png';
 import slide3 from '../../assets/img/slide3.png';
 import { useState, useEffect } from 'react';
-import { Button } from '@/components';
+import { Button, SliderNavigation } from '@/components';
 
 const slides = [
   {
@@ -90,18 +90,11 @@ export default function SliderSection() {
           </div>
           <Button className={styles.sliderSection__btn}>Read More</Button>
           <div className={styles.sliderSection__sliderNavigation}>
-            {slides.map((_, i) => (
-              <div
-                className={`${styles.sliderSection__sliderNavigationButton} ${
-                  currentSlide === i &&
-                  styles.sliderSection__sliderNavigationButton_active
-                }`}
-                onClick={() => {
-                  setCurrentSlide(i);
-                }}
-                key={i}
-              ></div>
-            ))}
+            <SliderNavigation
+              slides={slides}
+              currentSlide={currentSlide}
+              setCurrentSlide={setCurrentSlide}
+            />
           </div>
         </div>
       </div>
