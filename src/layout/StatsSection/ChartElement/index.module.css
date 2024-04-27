@@ -2,7 +2,7 @@
   width: 245px;
 }
 
-.chartElement__columnName {
+.chartElement__name {
   margin-bottom: 3.51px;
   font-size: 10.484px;
   font-weight: 600;
@@ -11,7 +11,7 @@
   text-transform: uppercase;
 }
 
-.chartElement__columnHeader {
+.chartElement__header {
   height: 56px;
   margin-bottom: 15.01px;
   font-size: 19.359px;

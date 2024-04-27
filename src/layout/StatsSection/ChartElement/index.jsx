@@ -10,8 +10,8 @@ export default function ChartElement({
 }) {
   return (
     <div className={styles.chartElement}>
-      <h5 className={styles.chartElement__columnName}>{name}</h5>
-      <h3 className={styles.chartElement__columnHeader}>{header}</h3>
+      <h5 className={styles.chartElement__name}>{name}</h5>
+      <h3 className={styles.chartElement__header}>{header}</h3>
       <div className={styles.chartElement__barChart}>
         <span className={styles.chartElement__barChartPercentage}>
           {percentage}
