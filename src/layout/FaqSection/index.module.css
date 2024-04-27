@@ -1,0 +1,14 @@
+.faqSection {
+}
+
+.faqSection__content {
+  padding: 100.72px 173px;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+
+.faqSection__content img {
+  width: 550px;
+  height: 534.05px;
+}

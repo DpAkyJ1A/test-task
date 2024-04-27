@@ -5,3 +5,4 @@ export { default as AccordionImagesSection } from './AccordionImagesSection';
 export { default as VideoSection } from './VideoSection';
 export { default as AchievementsSection } from './AchievementsSection';
 export { default as ExpertSection } from './ExpertSection';
+export { default as FaqSection } from './FaqSection';

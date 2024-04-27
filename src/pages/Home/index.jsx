@@ -7,6 +7,7 @@ import {
   VideoSection,
   AchievementsSection,
   ExpertSection,
+  FaqSection,
 } from '@/layout';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <VideoSection />
       <AchievementsSection />
       <ExpertSection />
+      <FaqSection />
     </div>
   );
 }
