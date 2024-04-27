@@ -1,0 +1,25 @@
+.toggle {
+  position: relative;
+  z-index: 5;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle span {
+  width: 18px;
+  height: 20px;
+  background: url('../../assets/icons/plus.svg');
+  background-position: 50% 51%;
+  background-repeat: no-repeat;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle_opened span {
+  height: 2px;
+  transform: rotate(180deg);
+}
