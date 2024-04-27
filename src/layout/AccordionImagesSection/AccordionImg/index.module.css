@@ -1,0 +1,69 @@
+.accordion {
+  width: 310px;
+}
+
+.accordion__ImgWrapper {
+  position: relative;
+  margin-bottom: 25.41px;
+}
+
+.accordion__toggle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion__toggle span {
+  width: 18px;
+  height: 20px;
+  background: url('../../../assets/icons/plus.svg');
+  background-position: 50% 48%;
+  background-repeat: no-repeat;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion__toggle_opened span {
+  height: 2px;
+  transform: rotate(360deg);
+}
+
+.accordion__name {
+  margin-bottom: 3.51px;
+  font-size: 10.484px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.accordion__header {
+  width: 257px;
+  margin-bottom: 24.5px;
+  font-size: 19.359px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.accordion__hiddenContentWrapper {
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 2px solid #d2d2d2;
+
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion__hiddenContentWrapper_opened {
+  max-height: 100px;
+}
+
+.accordion__hiddenContent {
+  padding-bottom: 20px;
+}
