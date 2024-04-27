@@ -6,3 +6,4 @@ export { default as VideoSection } from './VideoSection';
 export { default as AchievementsSection } from './AchievementsSection';
 export { default as ExpertSection } from './ExpertSection';
 export { default as FaqSection } from './FaqSection';
+export { default as ReviewsSection } from './ReviewsSection';

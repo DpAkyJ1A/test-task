@@ -8,6 +8,7 @@ import {
   AchievementsSection,
   ExpertSection,
   FaqSection,
+  ReviewsSection,
 } from '@/layout';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <AchievementsSection />
       <ExpertSection />
       <FaqSection />
+      <ReviewsSection />
     </div>
   );
 }

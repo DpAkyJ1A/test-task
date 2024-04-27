@@ -1,0 +1,76 @@
+.reviewsSection {
+  background-color: #f2f2f2;
+}
+
+.reviewsSection__content {
+  padding: 169.51px 183px 107.26px 170px;
+}
+
+.reviewsSection__row {
+  display: flex;
+}
+
+.reviewsSection__quoteImg {
+  width: 108px;
+  height: 88px;
+  background-image: url('../../assets/icons/quote.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 70px;
+}
+
+.reviewsSection__slides {
+  display: flex;
+  transition: margin-left 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 300%;
+}
+
+.reviewsSection__textSlider,
+.reviewsSection__creditsSlider {
+  display: flex;
+  overflow: hidden;
+}
+
+.reviewsSection__textSlider {
+  width: 718px;
+}
+
+.reviewsSection__creditsSlider {
+  width: 116px;
+  margin-left: 178px;
+  margin-top: 15px;
+}
+
+.reviewsSection__textSlideContent {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 718px;
+}
+
+.reviewsSection__creditSlide {
+  width: 116px;
+}
+
+.reviewsSection__creditSlide h6 {
+  font-weight: 600;
+  font-size: 5.5px;
+  line-height: 18px;
+  letter-spacing: 1.1px;
+  margin-bottom: 5px;
+}
+
+.reviewsSection__creditSlide h4 {
+  font-weight: 600;
+  font-size: 19.36px;
+  line-height: 28px;
+}
+
+.reviewsSection__sliderNavigation {
+  width: fit-content;
+  margin-left: auto;
+  align-self: center;
+  flex-direction: column;
+}
