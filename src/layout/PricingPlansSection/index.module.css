@@ -1,0 +1,17 @@
+.pricingPlansSection {
+  background-color: #000;
+  color: #fff;
+}
+
+.pricingPlansSection__content {
+  padding: 154.5px 169.91px 140px 170px;
+}
+
+.pricingPlansSection__content h2 {
+  margin-bottom: 43.5px;
+}
+
+.pricingPlansSection__row {
+  display: flex;
+  gap: 47px;
+}

@@ -9,6 +9,7 @@ import {
   ExpertSection,
   FaqSection,
   ReviewsSection,
+  PricingPlansSection,
 } from '@/layout';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <ExpertSection />
       <FaqSection />
       <ReviewsSection />
+      <PricingPlansSection />
     </div>
   );
 }
