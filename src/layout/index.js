@@ -8,3 +8,4 @@ export { default as ExpertSection } from './ExpertSection';
 export { default as FaqSection } from './FaqSection';
 export { default as ReviewsSection } from './ReviewsSection';
 export { default as PricingPlansSection } from './PricingPlansSection';
+export { default as Footer } from './Footer';
