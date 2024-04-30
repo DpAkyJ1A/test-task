@@ -13,21 +13,21 @@ export default function AchievementsSection() {
               <div className={styles.achievementsSection__row}>
                 <div className={styles.achievementsSection__achievement}>
                   <span>32K</span>
-                  <p>
+                  <p className={styles.pLong}>
                     Successful training sessions conducted, our services has a
                     proven track record of transforming challenges into
                     opportunities.
                   </p>
                 </div>
                 <div className={styles.achievementsSection__achievement}>
-                  <span>92%</span>
+                  <span className={styles.fontSmaller}>92%</span>
                   <p>
                     We take pride in our commitment to client satisfaction,
                     reflected in an impressive 92% rate of happy clients.
                   </p>
                 </div>
                 <div className={styles.achievementsSection__achievement}>
-                  <span>5/5</span>
+                  <span className={styles.fontMedium}>5/5</span>
                   <p>
                     Clients consistently rate our consultancy services with an
                     average score of 5 out of 5.

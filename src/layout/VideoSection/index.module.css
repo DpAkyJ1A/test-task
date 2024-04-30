@@ -1,11 +1,11 @@
 .videoSection__content {
-  padding: 88px 170px 110px;
+  padding: 128px 170px 105px;
   width: fit-content;
   margin: 0 auto;
 }
 
 .videoSection__content h2 {
-  margin-bottom: 46px;
+  margin-bottom: 45px;
 }
 
 .videoSection__videoContainer {
@@ -16,7 +16,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-49.5%, -52%);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -31,5 +31,5 @@
   width: 20px;
   height: 24px;
   background: url('../../assets/icons/play.svg');
-  margin-left: 8px;
+  margin-left: 5px;
 }

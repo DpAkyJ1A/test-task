@@ -1,5 +1,5 @@
 .sliderSection__content {
-  padding: 248px 30px 60px;
+  padding: 248px 0 60px;
   height: calc(100vw * (9 / 16));
   max-width: 1380px;
   margin: 0 auto;
@@ -44,6 +44,7 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .sliderSection__rightArrow {
@@ -66,7 +67,7 @@
 }
 
 .sliderSection__btn {
-  margin-left: 95px;
+  margin-left: 96px;
   margin-top: 31px;
 }
 

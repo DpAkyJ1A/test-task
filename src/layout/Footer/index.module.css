@@ -11,7 +11,7 @@
 }
 
 .footer__topRow {
-  padding: 180px 166px 0 170px;
+  padding: 178px 163px 0 170px;
 
   font-weight: 400;
   font-size: 16.31px;
@@ -20,13 +20,13 @@
 }
 
 .footer__middleRow {
-  padding: 70px 252.96px 70px 190px;
+  padding: 74px 249px 60px 182px;
   background-color: #f2f2f2;
 }
 
 .footer__bottomRow {
   background-color: #161616;
-  height: 48.5px;
+  height: 48px;
   align-items: center;
   width: 100%;
 }
@@ -82,6 +82,10 @@
   margin-top: 11px;
 }
 
+.footer__companyInfo {
+  width: 132px;
+}
+
 .footer__companyInfo p {
   margin-top: 23.24px;
   width: 123.58px;
@@ -123,6 +127,22 @@
 
 .footer__middleRow ul {
   display: flex;
+  font-size: 16.17px;
+  line-height: 28px;
+}
+
+.footer__middleRow ul li {
+  padding-left: 3.5px;
+}
+
+.footer__middleRow ul li:first-child {
+  margin-top: -14px;
+}
+
+.footer__middleRow ul li a {
+  font-weight: 600;
+  font-size: 19.52px;
+  line-height: 28px;
 }
 
 .footer__joinCommunity {
@@ -131,7 +151,7 @@
 }
 
 .footer__email {
-  margin-right: 74px;
+  margin-right: 65px;
 }
 
 .footer__bottomRow h6 {
@@ -140,4 +160,5 @@
   font-size: 10.31px;
   line-height: 16.5px;
   margin-left: 170px;
+  margin-top: 2px;
 }

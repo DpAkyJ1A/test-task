@@ -4,7 +4,7 @@
 
 .accordion__ImgWrapper {
   position: relative;
-  margin-bottom: 25.41px;
+  margin-bottom: 20px;
 }
 
 .accordion__toggleWrapper {
@@ -15,7 +15,7 @@
 }
 
 .accordion__name {
-  margin-bottom: 3.51px;
+  margin-bottom: 5px;
   font-size: 10.484px;
   font-weight: 600;
   line-height: 18px;
@@ -25,7 +25,11 @@
 
 .accordion__header {
   width: 257px;
-  margin-bottom: 24.5px;
+  font-size: 19.69px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 22px;
 }
 
 .accordion__hiddenContentWrapper {

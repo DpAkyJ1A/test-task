@@ -23,7 +23,7 @@ const slides = [
   },
 ];
 
-const playDelay = 7000;
+const playDelay = 70000000000;
 
 export default function SliderSection() {
   const [currentSlide, setCurrentSlide] = useState(0);

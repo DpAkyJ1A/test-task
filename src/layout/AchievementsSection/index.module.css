@@ -1,12 +1,12 @@
 .achievementsSection__content {
-  padding: 70px 170px 112px;
-  width: fit-content;
+  padding: 70px 170px 110px;
+  /* width: fit-content; */
   margin: 0 auto;
 }
 
 .achievementsSection__row {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 
 .achievementsSection__achievementBlock {
@@ -28,8 +28,29 @@
   line-height: 135.2px;
 }
 
+.achievementsSection__achievement .fontSmaller {
+  font-size: 102.65px;
+}
+
+.achievementsSection__achievement .fontMedium {
+  font-size: 107.14px;
+}
+
 .achievementsSection__achievement p {
   font-weight: 400;
   font-size: 16.17px;
   line-height: 28px;
+  width: 213px;
+}
+
+.achievementsSection__achievement .pLong {
+  width: 234px;
+}
+
+.achievementsSection__achievementBlock:last-child {
+  margin-left: 2px;
+}
+
+.achievementsSection__achievement:last-child {
+  margin-left: -5px;
 }

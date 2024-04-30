@@ -2,7 +2,7 @@
   position: relative;
   z-index: 5;
   width: 64px;
-  height: 64px;
+  height: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +17,9 @@
   background-repeat: no-repeat;
 
   transition: all 0.3s ease-in-out;
+
+  margin-bottom: 3px;
+  margin-right: 1px;
 }
 
 .toggle_opened span {
