@@ -1,2 +1,7 @@
-# frontend-play-ground
-This is my creative platform where I'll be mastering new technologies, creating new animations, working on mini projects, and just creating for the sake of it!
+# test task
+
+🚀 [deploy](https://dpakyj1a.github.io/test-task/) 🚀
+
+🔥 [design](https://www.figma.com/file/4SzrL02nmBolabxOPIjD3L/TEST-TASK?type=design&mode=design&t=JUwXcdQl2eTUhBMB-1) 🔥
+
+Made with pure react and css
